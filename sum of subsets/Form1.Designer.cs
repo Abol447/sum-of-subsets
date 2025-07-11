@@ -66,11 +66,11 @@
             // resultTable
             // 
             this.resultTable.ColumnCount = 1;
-            this.resultTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.resultTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.resultTable.Location = new System.Drawing.Point(17, 211);
             this.resultTable.Name = "resultTable";
             this.resultTable.RowCount = 1;
-            this.resultTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.resultTable.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.resultTable.Size = new System.Drawing.Size(770, 176);
             this.resultTable.TabIndex = 5;
             // 
@@ -123,6 +123,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

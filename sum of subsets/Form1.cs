@@ -75,6 +75,27 @@ namespace sum_of_subsets
                 if (test == waight)
                     result = result + subsetAndis[i] + '/' ;
             }
+            string[] res = result.Split('/');
+            resultTable.RowCount = res.Length;
+            for (int i = 0; i < res.Length - 1 ; i++)
+            {
+                TextBox resTxt = new TextBox();
+                string x = "{";
+                for (int j = 0; j < textBoxes.Length; j++)
+                {
+                    if (res[i][j] == '1')
+                        x += textBoxes[j].Text + ',' ;
+                }
+                x += "}";
+                resTxt.Text = x;
+                resTxt.Size = new Size(50, 22);
+                resultTable.Controls.Add(resTxt,0,i);
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
