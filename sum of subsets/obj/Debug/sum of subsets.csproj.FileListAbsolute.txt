@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\sum of subsets\sum of subsets\bin\Debug\sum of subsets.exe.config
+C:\Users\User\source\repos\sum of subsets\sum of subsets\bin\Debug\sum of subsets.exe
+C:\Users\User\source\repos\sum of subsets\sum of subsets\bin\Debug\sum of subsets.pdb
+C:\Users\User\source\repos\sum of subsets\sum of subsets\obj\Debug\sum of subsets.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\sum of subsets\sum of subsets\obj\Debug\sum_of_subsets.Form1.resources
+C:\Users\User\source\repos\sum of subsets\sum of subsets\obj\Debug\sum_of_subsets.Properties.Resources.resources
+C:\Users\User\source\repos\sum of subsets\sum of subsets\obj\Debug\sum of subsets.csproj.GenerateResource.cache
+C:\Users\User\source\repos\sum of subsets\sum of subsets\obj\Debug\sum of subsets.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\sum of subsets\sum of subsets\obj\Debug\sum of subsets.exe
+C:\Users\User\source\repos\sum of subsets\sum of subsets\obj\Debug\sum of subsets.pdb
