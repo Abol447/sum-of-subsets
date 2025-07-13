@@ -88,7 +88,7 @@ namespace sum_of_subsets
                 }
                 x += "}";
                 resTxt.Text = x;
-                resTxt.Size = new Size(50, 22);
+                resTxt.Size = new Size(150, 22);
                 resultTable.Controls.Add(resTxt,0,i);
             }
         }
